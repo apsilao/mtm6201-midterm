@@ -4,9 +4,6 @@
     box-sizing: border-box;
 }
 
-
-
-
 body {
     font-family: 'Karla', sans-serif;
     background-color: #f3f0e9;
@@ -98,6 +95,19 @@ header {
 .nav a:hover {
     color: #d69e3d;
 }
+
+.offers,
+.menu,
+.locations,
+.about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+
 .hero {
     position: relative;
     background-image: url('../images/hero-background.jpg');
@@ -112,14 +122,8 @@ header {
     justify-content: center;
     align-items: center;
 }
-.overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.5);
-}
+
+
 .hero-content {
     position: relative;
     z-index: 1;
@@ -133,43 +137,28 @@ header {
     font-size: 1.2rem;
 }
 
-
-.btn {
-    display: inline-block;
-    padding: 5px 20px;
+.intro-txt,
+.about-txt,
+.test-txt {
+    text-align: left;
+    margin: 20px;
+}
+.otxt {
+    color: #d69e3d;
+}
+.line {
+    height: 1px;
     background-color: #ffffff;
-    color: #000000;
-    text-decoration: none;
-    border: 1px solid #000000;
-    font-family: 'Karla', sans-serif;
+    width: 80%;
+    margin: 20px auto;
 }
-
-.t-btn {
-
-    background-color: transparent;
-    border: 1px solid #ffffff;
-    display: inline-block;
-    padding: 5px 20px;
-    color: #ffffff;
-    text-decoration: none;
-    border: 1px solid #ffffff;
-    font-family: 'Karla', sans-serif;
-}
-
-.b-btn {
-
-
+.footer {
+    justify-content: center;
+    padding: 20px;
     background-color: #000000;
-    border: 1px solid #000000;
-    display: inline-block;
-    padding: 5px 20px;
     color: #ffffff;
-    text-decoration: none;
-    border: 1px solid #ffffff;
-    font-family: 'Karla', sans-serif;
-
+    text-align: center;
 }
-
 
 .intro {
     text-align: left;
@@ -206,19 +195,11 @@ header {
     height: auto;
 }
 
-#about {
-    padding: 20px;
-    text-align: center;
-}
 
 
 
-#about img {
-    max-width: 100%;
-    height: auto;
-    display: block;
-    margin: 0 auto 20px;
-}
+
+
 
 .features {
     background-color: #f8f4ee;
@@ -273,20 +254,43 @@ header {
 }
 
 
-@media (max-width: 767px) {
+@media (min-width: 768px) {
     h1 {
-        font-size: 2.027rem;
+        font-size: 2.986rem;
     }
-
     h2 {
-        font-size: 1.802rem;
+        font-size: 2.488rem;
     }
-
     h3 {
-        font-size: 1.424rem;
+        font-size: 1.728rem;
+    }
+    p {
+        font-size: 1rem;
+    }
+    .main-nav {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .nav a {
+        font-size: 18px;
+        
+    }
+   
+}
+@media (min-width: 1099px) {
+    h1 {
+        font-size: 3.815rem;
+    }
+    h2 {
+        font-size: 3.052rem;
+    }
+    h3 {
+        font-size: 1.953rem;
+    }
+    p {
+        font-size: 1rem;
     }
 
-    p {
-        font-size: 16px;
-    }
+
+
 }
