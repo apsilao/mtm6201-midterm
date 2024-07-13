@@ -6,11 +6,21 @@
 
 
 
+
 body {
     font-family: 'Karla', sans-serif;
     background-color: #f3f0e9;
     color: #000000;
     line-height: 1.6;
+}
+
+.wrapper,
+.content-wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.content-wrapper {
+    text-align: center;
 }
 
 h1,
@@ -176,9 +186,7 @@ header {
     color: #ffffff;
 }
 
-.orangep {
-    color: #d69e3d;
-}
+
 
 .intro img {
     width: 100%;
@@ -191,11 +199,7 @@ header {
     text-align: center;
 }
 
-.gallery .content-wrapper {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 10px;
-}
+
 
 .gallery img {
     width: 100%;
@@ -207,11 +211,7 @@ header {
     text-align: center;
 }
 
-#about .content-wrapper {
-    max-width: 100%;
-    margin: 0 auto;
-    text-align: left;
-}
+
 
 #about img {
     max-width: 100%;
@@ -249,11 +249,27 @@ header {
 }
 
 
+.intro-txt,
+.about-txt,
+.test-txt {
+    text-align: left;
+    margin: 20px;
+}
+.otxt {
+    color: #d69e3d;
+}
+.line {
+    height: 1px;
+    background-color: #ffffff;
+    width: 80%;
+    margin: 20px auto;
+}
 .footer {
-    background-color: #333333;
+    justify-content: center;
+    padding: 20px;
+    background-color: #000000;
     color: #ffffff;
     text-align: center;
-    padding: 10px;
 }
 
 
