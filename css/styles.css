@@ -96,6 +96,18 @@ header {
     color: #d69e3d;
 }
 
+.btn,
+.t-btn,
+.b-btn {
+    display: inline-block;
+    padding: 5px 20px;
+    text-decoration: none;
+    font-family: 'Karla', sans-serif;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+    font-weight: bold;
+}
+
+
 .btn {
     background-color: #ffffff;
     color: #000000;
