@@ -96,6 +96,39 @@ header {
     color: #d69e3d;
 }
 
+.btn {
+    background-color: #ffffff;
+    color: #000000;
+    border: 1px solid #000000;
+}
+.t-btn {
+    background-color: transparent;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+}
+.b-btn {
+    background-color: #000000;
+    color: #ffffff;
+    border: 1px solid #000000;
+}
+/* Hover Effects */
+.btn:hover {
+    background-color: #d69e3d;
+    color: #ffffff;
+    border-color: #ffffff;
+}
+.t-btn:hover {
+    background-color: #fffff1;
+    color: #000000;
+    border-color: #ffffff;
+}
+.b-btn:hover {
+    background-color: #d69e3d;
+    color: #ffffff;
+    border-color: #000000;
+}
+
+
 .offers,
 .menu,
 .locations,
