@@ -123,7 +123,7 @@ header {
 }
 
 .nav a:hover {
-    color: #d69e3d;
+    color: #966f2c;
 }
 
 .btn,
@@ -181,7 +181,7 @@ header {
 }
 
 .btn:hover {
-    background-color: #d69e3d;
+    background-color: #966f2c;
     color: #ffffff;
     border-color: #ffffff;
 }
@@ -193,7 +193,7 @@ header {
 }
 
 .b-btn:hover {
-    background-color: #d69e3d;
+    background-color: #966f2c;
     color: #ffffff;
     border-color: #000000;
 }
