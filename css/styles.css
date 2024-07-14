@@ -66,6 +66,7 @@ p {
 }
 
 
+
 header {
     background-color: #000000;
     color: #ffffff;
@@ -135,6 +136,30 @@ header {
     transition: background-color 0.3s, color 0.3s, border-color 0.3s;
     font-weight: bold;
 }
+
+
+
+@keyframes animateBtn {
+
+    0%,
+    100% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.1);
+    }
+}
+
+.btn,
+.t-btn,
+.b-btn,
+.img-ani {
+    animation: animateBtn 3s ease-in-out infinite;
+}
+
+
+
 
 
 .btn {
@@ -255,12 +280,14 @@ header {
     color: #ffffff;
 }
 
-
-
 .intro img {
     width: 100%;
     height: auto;
     margin-top: 10px;
+}
+
+.intro-grid {
+    padding: 20px;
 }
 
 .gallery {
@@ -347,6 +374,7 @@ img {
     display: grid;
     gap: 20px;
 }
+
 
 .offer-item {
     text-align: center;
