@@ -70,7 +70,7 @@ p {
 header {
     background-color: #000000;
     color: #ffffff;
-    padding: 10px 20px;
+    padding: 10px 10px;
 }
 
 .main-nav {
@@ -220,7 +220,7 @@ header {
     color: #ffffff;
     text-align: center;
     padding: 100px 20px;
-    height: 60vh;
+    height: 70vh;
     display: flex;
     justify-content: center;
     align-items: center;
